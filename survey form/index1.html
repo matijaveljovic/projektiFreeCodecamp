@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<h1 id="title">Zivot u Podgorici </h1>
+<p id="description"> Podgorica Moj Grad</p>
+ <form id="survey-form">
+   <div >
+     <label id="name-label">Ime:</label>
+   <input id="name" type="text" placeholder="Unesite Vase ime" required> </input>
+   </div>
+<div >
+  <label id="email-label">Email:</label>
+   <input id="email" type="email" placeholder="Unesite Vasu e-mail adresu" required> </input>
+
+<div >
+  <label id="number-label">Godine:</label>
+   <input id="number" type="number" placeholder="Godine" min="7" max="100" required> </input>
+</div>
+<div>
+ Izaberi kvart: <select name="Kvart" id="dropdown" required>
+                                       
+                                        <option value="1" disabled>Tvoj kvart
+                
+                                        </option>
+                                        <option value="2">Zabjelo</option>
+                                        <option value="3">Blok 5</option>
+                                        <option value="4">Tolosi</option>
+  <option value="5">Stari Aerodrom</option>
+                                        <option value="6">Zlatica</option>
+  <option value="7">Konik</option>
+  <option value="8">Gornja Gorica</option>
+  <option value="9">Centar</option>
+  <option value="10">Momisici</option>
+  <option value="11">Donja Gorica</option>
+  <option value="12">Drac</option><option value="13"> Zagoric</option><option value="14">City Kvart</option>
+                                    </select>
+</div>
+<div>
+  <p>Da li ste zadovoljni Podgoricom(mjesto za zivot sa porodicom)</P>
+<label>Veoma zadovoljan/na
+  <input type="radio"
+    name="feeling"
+ value="Veoma zadovoljan/na"/>
+</label>
+<div>
+<label>Zadovoljan/na
+  <input type="radio"
+    name="feeling"
+ value="Zadovoljan/na"/>
+</label>
+</div>
+<div>
+<label>Prihvatljivo
+  <input type="radio"
+    name="feeling"
+ value="Prihvatljivo"/>
+</label>
+</div>
+<div>
+<label>Nisam zadovoljan/na
+  <input type="radio"
+    name="feeling"
+ value="Nisam zadovoljan/na"/>
+</label>
+</div>
+<label>Uopste nisam zadovoljan/na
+  <input type="radio"
+    name="feeling"
+ value="Uopste nisam zadovoljan/na"/>
+</label>
+</div>
+   <div>
+     <p>  Sta biste promijenili u Podgorici</p>
+     <label>Zagadjenje vazduha
+     <input
+      type="checkbox"
+      name="changes"
+    value="zagadjenje vazduha"/>
+     </label>
+     </div>
+     <div>
+        <label>Guzva u saobracaju
+     <input
+      type="checkbox"
+      name="changes"
+    value="Guzva u saobracaju"/>
+     </label>
+     </div>
+     <div>
+        <label>Vise zelenih povrsina
+     <input
+      type="checkbox"
+      name="changes"
+    value="Vise zelenih povrsina"/>
+     </label>
+     </div>
+     <div>
+        <label>Vise sportskih terena
+     <input
+      type="checkbox"
+      name="changes"
+    value="Vise sportskih terena"/>
+     </label>
+     </div>
+     <div>
+        <label>Vise kulturnih gradjevina
+     <input
+      type="checkbox"
+      name="changes"
+    value="Vise kulturnih gradjevina"/>
+     </label>
+     </div>
+     <div>
+        <label>Vise muzickih manifestacija
+     <input
+      type="checkbox"
+      name="changes"
+    value="Vise muzickih manifestacija"/>
+     </label>
+     </div>
+     <div>
+        <label>Manje kucnih ljubimaca
+     <input
+      type="checkbox"
+      name="changes"
+    value="Manje kucnih ljubimaca"/>
+     </label>
+     </div>
+     <div>
+        <label>Doseljenici
+     <input
+      type="checkbox"
+      name="changes"
+    value="Doseljenici"/>
+     </label>
+     </div>
+<div>
+  <p>Komentar ili predlog?</P>
+   <textarea id="Dodatni opis" cols="40" rows="3" maxlength="300" >
+   </textarea>
+   </div>
+   <div>
+     <input type="submit" value="Submit all my inputs"id="submit" >
+     </div>
+
+</form>
+
+</body>
+</html>

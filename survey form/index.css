@@ -1,0 +1,18 @@
+body{
+    text-align:center;
+    background-image:url(https://lh3.googleusercontent.com/proxy/W9iNMiOA8nmo7mA3Vi4Hib02rtuYeCClnDlZklnjNnfG4vTNq-UX-75qgOp0R0idyRxy-LSiPPGcuh16nCDis8_AQeS8MCFmW9lTsWOp98Y);
+    
+  }
+  
+  #survey-form{
+    background-color:#FFFFF0;
+    width:auto;
+    margin:20px;
+    opacity:80%;
+    
+  }
+  #description{
+    font-size:30px;
+      font-family: "Times New Roman", Times, serif;
+    
+  }
