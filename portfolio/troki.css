@@ -1,0 +1,111 @@
+body{
+    background-image:url("https://images.unsplash.com/photo-1502675135487-e971002a6adb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80");
+    background-size:cover;
+    background-repeat:no-repeat;
+  font-family:Courier New;
+    line-height:1.6
+  }
+  a{
+    text-decoration:none;
+  }
+  ul{
+    list-style:none;
+    
+  }
+  header{
+    position:fixed;
+      top:0;
+      left:0;
+   width: 100%;
+      display:flex;
+      align-items:end;
+      justify-content:flex-end;
+      background-color:black;
+  }
+  nav#navbar ul{
+    display:flex;
+  }
+  nav#navbar li{
+    margin-right:4rem;
+  }
+    nav#navbar li a{
+      color:#1E90FF;
+      font-size:23px;
+      }
+  h1{
+    font-size:40px;
+    color:red;
+    text-align:center;
+    margin: 0;
+    padding-top:70px;
+    
+  }
+  #paragraf{
+    text-align:center;
+    font-size: 25px;
+    color:#32CD32;
+  }
+  
+    
+  div#work{
+    padding-top:3em;
+    text-align:center;
+    display:flex;
+  
+  }
+  
+  
+  #projects h2{
+    color:#FFA500;
+    
+  }
+  #project-tile{
+    display:flex;
+  }
+  h4{
+    color:orange;
+    font-size:18px;
+    
+  }
+  #contact-header{
+    text-align:center;
+    color:orange;
+    margin-left:-2em;
+  }
+  div#popravni{
+    text-align:center;
+  }
+  div#popravni i{
+    margin-top:2em;
+    color:red;
+  }
+  div#popravni a{
+    color:red;
+  }
+  footer{
+    
+      text-align:end;
+      padding:1em.5em;
+    background: rgba(0, 200, 100, 0.3);
+    
+    
+  }
+  footer li a{
+    color:black;
+    font-size:18px;
+  }
+  
+      @media screen and (max-width:650px){
+      header{
+        flex-direction:column;
+      }
+      nav#navbar ul{
+        display:block;
+        text-align:center;
+      }
+      .project-image{
+        margin:1em 0;
+        text-align:center;
+      }
+    }
+  
